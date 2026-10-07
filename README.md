@@ -2,6 +2,9 @@
 
 The goal of this project is to understand how venture capital funds make money when most of the startups they invest in fail. By simulating thousands of seed funds, I break down how a few large winners drive a fund's returns, how often funds lose money, and how the number of companies in a portfolio changes both risk and return.
 
+**Note:** As a beginner, I created this project to better understand how VC funds work and how they make money. It should be noted that this is a learning project, so the model is simplified and is not meant to be used for real investment decisions.
+
+
 ## How It Works
 
 Each startup is assigned an outcome based on published data from Correlation Ventures, Horsley Bridge, and AngelList, ranging from a total loss (0x) to a rare 150x return. The simulator builds funds of startups, calculates each fund's overall return, and repeats this 10,000 times to find patterns.
